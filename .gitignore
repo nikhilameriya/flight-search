@@ -1,0 +1,11 @@
+node_modules/
+__TESTS__/coverage/
+.DS_Store
+/ssl
+~/
+.env
+*.log
+.eslintrc.js
+package-lock.json
+.vscode/
+node_modules

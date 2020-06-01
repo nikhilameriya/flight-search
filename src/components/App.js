@@ -3,6 +3,7 @@ import { Switch, Route, Redirect } from 'react-router-dom';
 import Homepage from './Homepage';
 import SearchResultContainer from '../containers/SearchResultContainer';
 import Header from './Header';
+import Footer from './Footer';
 
 const App = () => (
     <div>
@@ -14,6 +15,7 @@ const App = () => (
                 <Redirect from="/" to="/homepage" />
             </Switch>
         </div>
+        <Footer />
     </div>
 )
 
